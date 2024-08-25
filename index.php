@@ -76,6 +76,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <main class="container d-flex align-items-center flex-column">
         <h1 class="text-center mt-5 mb-5">Registro de productos</h1>
 
+        <a href="./process.php" class="btn btn-danger w-25 mb-3"> Ver producto</a>
+
         <?php foreach ($errores as $error): ?>
 
             <div class="bg-danger-subtle mb-2 p-2 w-50 rounded fw-bold text-center border-4">
